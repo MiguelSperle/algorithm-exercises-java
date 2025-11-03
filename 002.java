@@ -15,6 +15,7 @@ void main() {
         }
     } while (number <= 0);
 
+    scanner.close();
     int factorial = 1;
 
     for (int i = 1; i <= number; i++) {
